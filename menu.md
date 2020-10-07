@@ -1,76 +1,46 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-
-<!-- This is index.html -->
-
 <html lang="en">
-	<head>
-		<title>JavaJam Coffee House Menu</title>
+<head>
+<title>JavaJam Coffee House Menu</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Welcome to Javajam, join us for our special coffee and music choices, we work to build a strong relationship with our customers.">
+<link rel="stylesheet" href="javajam.css">
+</head>
+<body>
+<div id="wrapper">
+<header>
+<h1>JavaJam Coffee House</h1>
+</header>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li> 
+<li><a href="menu.html">Menu</a></li>  
+<li><a href="music.html">Music</a></li> 
+<li><a href="jobs.html">Jobs</a></li>
+</ul>
+</nav>
+<main>
 
-		<meta charset="utf-8">
+<div id ="heromugs">
 
-		<meta name="description" content="A website for the Java Jam coffee house with information and gear.">
-		<meta name="keywords" content="<!--keywords here-->">
-		<meta name="author" content="<!--author here-->">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+</div>
 
-		<link rel="stylesheet" type="text/css" href="javajam.css">
-		<link rel="stylesheet" type="text/css" href="javajam.css" media="only screen an (max-width: 1024px)">
-		<link rel="stylesheet" type="text/css" href="javajam.css" media="only screen and (max-width: 768px)">	
-		<link href="favicon.ico" rel="icon" type="image/x-icon" />
-		
-		<!-- [if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
-		</script>
-		<![endif]-->
-	</head>
-	
-	<body>
-		<div id="wrapper">
-			<header>
-				<h1>JavaJam Coffee House</h1>
-			</header>
-			
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#top">Menu</a></li>
-					<li><a href="music.html">Music</a></li>
-					<li><a href="jobs.html">Jobs</a></li>
-					<li><a href="gear.html">Gear</a></li>
-				</ul>
-			</nav>
-			
-			<main>
-				<div id="heromugs"></div>
-			
-				<h2>Coffee at JavaJam</h2>
-				
-				<p>Indulge in our locally roasted free-trade coffee and enjoy the aroma, the smooth taste, and caffeine!
-				Join our Mug Club and get a 10% discount on each cup of coffee you purchase &mdash; ask the barista for details.</p>
-				
-				<table>
-					<tr class="altrow">
-						<th>Just Java</th>
-						<td>Regular house blend, decaffeinated coffee, or flavor of the day.<br>
-						Endless Cup $2.00</td>
-					</tr>
-					<tr>
-						<th>Cafe au Lait</th>
-						<td>House blended coffee infused into a smooth, steamed milk.<br>
-						Single $2.00 Double $3.00</td>
-					</tr>
-					<tr class="altrow">
-						<th>Iced Cappuccino</th>
-						<td>Sweetened espresso blended with icy-cold milk and served in a chilled glass.<br>
-						Single $4.75 Double $5.75</td>
-					</tr>
-				</table>
-			</main>
-			
-			<footer>
-				Copyright &copy; 2020 JavaJam Coffee House<br>
-			</footer>
-		</div>
-	</body>
+<h2>Coffee at JavaJam</h2>
+<p>Indulge in our locally roasted free-trade coffee and enjoy the aroma, the smooth taste, the caffeine! Join our Mug Club and get a 10% discount on each cup of coffee you purchase &mdash; ask the barista for details.</p>
+<dl>
+<dt><strong>Just Java</strong></dt>
+<dd>Regular house blend, decaffeinated coffee, or flavor of the day.<br>Endless Cup $2.00</dd>
+<dt><strong>Cafe au Lait</strong></dt>
+<dd>House blended coffee infused into a smooth, steamed milk.<br>Single $2.00 Double $3.00</dd>
+<dt><strong>Iced Cappuccino</strong></dt>
+<dd>Sweetened espresso blended with icy-cold milk and served in a chilled glass.<br>Single $4.75 Double $5.75</dd>
+</dl>
+
+</main>
+<footer>
+Copyright &copy; 2020 JavaJam Coffee House<br>
+</footer>
+</div>
+</body>
 </html>
