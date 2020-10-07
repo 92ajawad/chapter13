@@ -1,76 +1,45 @@
-# chapter13
 <!DOCTYPE html>
-
-<!-- This is music.html -->
-
 <html lang="en">
-	<head>
-		<title>JavaJam Coffee House Music</title>
+<head>
+<title>JavaJam Coffee House Music</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Welcome to Javajam, join us for our special coffee and music choices, we work to build a strong relationship with our customers.">
+<link rel="stylesheet" href="javajam.css">
+</head>
+<body>
+<div id="wrapper">
+<header>
+<h1>JavaJam Coffee House</h1>
+</header>
+<nav>
+<ul>	
+<li><a href="index.html">Home</a></li> 
+<li><a href="menu.html">Menu</a></li> 
+<li><a href="music.html">Music</a></li> 
+<li><a href="jobs.html">Jobs</a></li>
+</ul>
+</nav>
+<main>
+<div id = "heroguitar.jpg">
 
-		<meta charset="utf-8">
-
-		<meta name="description" content="A website for the Java Jam coffee house with information and gear.">
-		<meta name="keywords" content="<!--keywords here-->">
-		<meta name="author" content="<!--author here-->">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<link rel="stylesheet" type="text/css" href="javajam.css">
-		<link rel="stylesheet" type="text/css" href="javajam.css" media="only screen and (max-width: 1024px)">
-		<link rel="stylesheet" type="text/css" href="javajam.css" media="only screen and (max-width: 768px)">	
-		<link href="favicon.ico" rel="icon" type="image/x-icon" />
-	</head>
-	
-	<body>
-		<div id="wrapper">
-			<header>
-				<h1>JavaJam Coffee House</h1>
-			</header>
-			
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="menu.html">Menu</a></li>
-					<li><a href="#top">Music</a></li>
-					<li><a href="jobs.html">Jobs</a></li>
-					<li><a href="gear.html">Gear</a></li>
-				</ul>
-			</nav>
-			
-			<main>
-				<div id="heroguitar"></div>
-			
-				<h2>Music at JavaJam</h2>
-				
-				<p>The first Friday night each month at JavaJam is a special night.
-				Join us from 8 pm to 11 pm for some music you won&apos;t want to miss!</p>
-				
-				<h4>January</h4>
-				<div class="details">
-					<a href="melanie.jpg"><img class="floatleft" src="melaniethumb.jpg" height="80" width="80" alt="picture of melanie"></a>
-					Melanie Morris entertains with her melodic folk style.
-					<audio controls>
-						<source src="melanie.mp3" type="audio/mpeg">
-						<source src="melanie.ogg" type="audio/ogg">
-						<a href="melanie.mp3">Download the Audio File</a>
-					</audio>
-				</div>
-				
-				
-				<h4>Februrary</h4>
-				<div class="details">
-					<a href="greg.jpg"><img class="floatleft" src="gregthumb.jpg" height="80" width="80" alt="picture of greg"></a>
-					Tahoe Greg is back from his tour. New songs. New Stories.
-					<audio controls>
-						<source src="greg.mp3" type="audio/mpeg">
-						<source src="greg.ogg" type="audio/ogg">
-						<a href="greg.mp3">Download the Audio File</a>
-					</audio>
-				</div>
-			</main>
-			
-			<footer>
-				Copyright &copy; 2020 JavaJam Coffee House<br>
-			</footer>
-		</div>
-	</body>
+</div>
+<h2>Music at JavaJam</h2>
+<p>The first Friday night each month at JavaJam is a special night. Join us from 8 pm to 11 pm for some music you won&#39;t want to miss!</p>
+<h4>January</h4>
+<div class="details">
+<a href="melanie.jpg"><img src="melaniethumb.jpg" alt="Melanie Morris" width="80" height="80"></a>
+Melanie Morris entertains with her melodic folk style.
+</div>
+<h4>February</h4>
+<div class="details">
+<a href="greg.jpg"><img src="gregthumb.jpg" alt="Tahoe Greg" width="80" height="80"></a>
+Tahoe Greg is back from his tour. New songs. New stories.
+</div>
+</main>
+<footer>
+Copyright &copy; 2020 JavaJam Coffee House<br>
+</footer>
+</div>
+</body>
 </html>
